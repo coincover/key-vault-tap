@@ -4,8 +4,10 @@ Public Homebrew tap for the CoinCover Key Vault CLI (`coincover`).
 
 ## Install
 
+Homebrew looks for `github.com/coincover/homebrew-key-vault-tap` by default. This repo is named `key-vault-tap`, so pass the Git URL explicitly:
+
 ```bash
-brew tap coincover/key-vault-tap
+brew tap coincover/key-vault-tap https://github.com/coincover/key-vault-tap.git
 brew install coincover
 ```
 
