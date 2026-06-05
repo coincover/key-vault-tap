@@ -1,15 +1,15 @@
 class Coincover < Formula
   desc "CoinCover Key Vault CLI"
   homepage "https://github.com/coincover/key-vault-tap"
-  version "0.7.0"
+  version "0.8.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/coincover/key-vault-tap/releases/download/v0.7.0/cc-cli-macos-arm64-v0.7.0.tar.gz"
-      sha256 "7661fcfdd54ab5a40fbc1fed3abb49271d9117bf69c8adacb52a37b086de0fb4"
+      url "https://github.com/coincover/key-vault-tap/releases/download/v0.8.0/cc-cli-macos-arm64-v0.8.0.tar.gz"
+      sha256 "11fe88d366fa1e9ea9942b36ad338f00a2d285e4f5996d4852f8e4d33edc9b95"
     else
-      url "https://github.com/coincover/key-vault-tap/releases/download/v0.7.0/cc-cli-macos-x64-v0.7.0.tar.gz"
-      sha256 "4e6092c28d4b475e9811a73de2a43166ff99d79df7b1681e7f1f653dedccd9ce"
+      url "https://github.com/coincover/key-vault-tap/releases/download/v0.8.0/cc-cli-macos-x64-v0.8.0.tar.gz"
+      sha256 "c04ea77fe7b21341e75abc6de0f9d39b83dc5013c90953ad2b412b5dfcd941e3"
     end
   end
 
